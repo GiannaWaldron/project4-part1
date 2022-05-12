@@ -7,7 +7,7 @@ html, body {
     font-size: 98px;
     color: #509956;
     background-color: #f8f6f6;
-    background-blend-mode: overlay;
+
     margin: 0;
     display: flex;
     align-items: center;
@@ -31,3 +31,14 @@ html, body {
   .colors {
     display: none;
   }
+  @media screen and (max-width: 480px) {
+    body {
+      font-size: 40px;
+  }
+    
+}
+@media screen and (min-width: 600px){
+  body{
+    font-size: 98px;
+  }
+}

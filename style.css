@@ -34,3 +34,14 @@ div {
 img{
   display:realative;
 }
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 40px;
+}
+  
+}
+@media screen and (min-width: 600px){
+body{
+  font-size: 98px;
+}
+}

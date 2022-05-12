@@ -29,3 +29,14 @@ h1{
 .link3:hover{
     color: rgb(65, 112, 61);
 }
+@media screen and (max-width: 480px) {
+    body {
+      font-size: 40px;
+  }
+    
+}
+@media screen and (min-width: 600px){
+  body{
+    font-size: 98px;
+  }
+}

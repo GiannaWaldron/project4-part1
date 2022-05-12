@@ -7,6 +7,7 @@ body {
   font-size: 98px;
   color: #fd0202;
   background-color: #f8f6f6;
+  
   margin: 0;
   display: flex;
   align-items: center;
@@ -29,4 +30,7 @@ div {
 
 .colors {
   display: none;
+}
+img{
+  display:realative;
 }

@@ -1,6 +1,6 @@
 var bgcolors = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
 var letter = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
-var bgimg = ["url(image/a3.png)", "url(image/b3.png)", "url(image/c3.png)", "url(img/4.png)", "url(img/5.png)", "url(img/6.png)", "url(img/7.png)", "url(img/8.png)", "url(img/9.png)", "url(img/10.png)", "url(img/11.png)", "url(img/12.png)", "url(img/13.png)", "url(img/14.png)", "url(img/15.png)", "url(img/16.png)", "url(img/17.png)", "url(img/18.png)", "url(img/19.png)", "url(img/20.png)", "url(img/21.png)", "url(img/22.png)", "url(img/23.png)", "url(img/24.png)", "url(img/25.png)", "url(img/26.png)"];
+var bgimg = ["url(image/a3.png)", "url(image/b3.png)", "url(image/c3.png)", "url(imaje/d3.png)", "url(image/e3.png)", "url(image/f3.png)", "url(image/g3.png)", "url(image/h3.png)", "url(image/i3.png)", "url(image/j3.png)", "url(image/k3.png)", "url(image/l3.png)", "url(image/m3.png)", "url(image/n3.png)", "url(image/o3.png)", "url(image/p3.png)", "url(img/17.png)", "url(img/18.png)", "url(img/19.png)", "url(img/20.png)", "url(img/21.png)", "url(img/22.png)", "url(img/23.png)", "url(img/24.png)", "url(img/25.png)", "url(img/26.png)"];
 document.onkeydown = function (e) {
   console.log("key down", event);
   document.querySelectorAll(".colors").forEach(a => {
